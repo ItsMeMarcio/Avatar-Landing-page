@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@100&display=swap');
+
+*{
+    margin: 0%;
+    padding:0 ;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor--fonte: black ; 
+    --cor--secundaria:#2C3333;
+    --cor--de--fundo: #Ffffff;
+    --button:#167BF7;
+    --font--princiapal: 'Poppins', sans-serif; 
+    --font-secundaria:'Inter', sans-serif;
+
+
+    
+
+}
+body{
+    background-color: var(--cor--de--fundo);
+}
+
+#divao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal{
+    display:inline-flex;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+
+
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.texto__paragrafo{
+    text-align: center;
+    color: var(--cor--fonte);
+    font-family: var(--font--princiapal);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+strong{
+    color: #23689B;
+}
+
+#paragrafo__botao{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+    gap: 10px;
+}
+
+.botao{
+    
+    background-color: var(--cor--de--fundo);
+    border: #23689B solid 2px;
+    color: #23689B;
+    padding: 20px;;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: var(--font--princiapal);
+    font-weight: 600;
+}
+
+
+.texto__secundario{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-secundaria) ;
+    color: var(--cor--secundaria);
+}
+
+#logos{
+    display: flex;
+    padding: 10px 15px;
+}
+
+.logo__botao{
+    width: 30px;
+}
